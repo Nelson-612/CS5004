@@ -1,8 +1,7 @@
-import static org.junit.jupiter.api.Assertions.*;
-
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class PersonTest {
 
@@ -15,16 +14,16 @@ class PersonTest {
 
   @Test
   void getName() {
-    Assertions.assertEquals("Alex White", this.alex.getName());
+    assertEquals("Alex White", this.alex.getName());
   }
 
   @Test
   void getEmail() {
-    Assertions.fail("Not yet implemented");
+    assertEquals("alex.white@gmail.com", this.alex.getEmail());
   }
 
   @Test
   void getAddress() {
-    Assertions.fail("Not yet implemented");
+    assertEquals("San Jose, CA, USA", this.alex.getAddress());
   }
 }
