@@ -85,6 +85,7 @@ public class Triangle  extends AbstractShape {
     );
   }
 
+  @Override
   public String toString() {
     return String.format(
         "Triangle: (%.3f, %.3f), (%.3f, %.3f), (%.3f, %.3f)",

@@ -30,7 +30,7 @@ public class TriangleTest {
   }
 
   @Test
-  public void testAreaColllinearTriangle() {
+  public void testAreaCollinearTriangle() {
     Triangle t = new Triangle(0, 0, 1, 1, 2,2);
     assertEquals(0.0, t.area(), 1e-6);
     assertTrue(t.area() >= 0);
