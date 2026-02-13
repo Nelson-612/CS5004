@@ -100,6 +100,6 @@ public class ElectricVehicle {
     String socFormatted = String.format("%.1f", socPercent);
     String rngFormatted = String.format("%.1f", rng);
 
-    return this.name + " SOC " + socFormatted + "% Range (miles): " + rngFormatted;
+    return this.name + " SOC: " + socFormatted + "% Range (miles): " + rngFormatted;
   }
 }
